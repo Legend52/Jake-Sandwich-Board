@@ -1,0 +1,905 @@
+/********Global********/
+
+*{
+	margin: 0;
+	border: 0;
+	outline: 0;
+	padding: 0;
+}
+
+body{
+	background:url("../images/seamless-wood-texture-free-40.jpg") repeat 0 0;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+
+ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+	font-size: 24px;
+}
+
+li{
+	float: left;
+}
+
+h1{ 
+	font-size: 60px; 
+	text-decoration: none;
+}
+
+
+h2{ 
+	font-size: 36px;
+	color: red;
+}
+
+h3{
+	font-size: 24px;
+}
+
+p{
+	font-size: 18px;
+}
+
+input{
+	background-color: #000000;
+	color: #fcfcfc;
+	font-size: 18px;
+}
+
+textarea{
+	background-color: #000000;
+	color: #fcfcfc;
+	padding: 20px;
+	width: 540px;
+	height: 240px;  	
+}
+
+/********General********/
+
+.cf{
+    *zoom: 1;
+}
+
+.site-header{
+	background: #000;
+	width: 1200px;
+	height: 240px;
+	margin: 0 auto;
+}
+
+.logo{	
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 75px;
+}
+
+.social{	
+	float: left;
+	padding-top: 125px;
+	padding-left: 150px;
+}
+
+.facebook{
+	float: left;
+}
+
+.twitter{
+	float: left;
+}
+
+.instagram{
+	float: left;	
+}
+
+.yelp{
+	float: left;
+}
+
+.home-navigation{
+	background-color: #cb8b43;
+	width: 1200px;
+	margin: 0 auto ;
+	height: 56px;
+}
+
+.home-navigation-1{
+	display: block;
+	border: solid;
+	border-color: #984816;
+	border-width: 3px;
+	width: 144px;
+	height: 20px;
+	padding: 15px 75px;
+	text-align: center;
+	color: #000000;
+}
+
+a:hover.home-navigation-1{
+	display: block;
+	border: solid;
+	border-color: #cb8b43;
+	background-color: #984816;
+	border-width: 3px;
+	width: 144px;
+	height: 20px;
+	padding: 15px 75px;
+	text-align: center;
+}
+
+.home-navigation-2{
+	display: block;
+	border: solid;
+	border-color: #984816;
+	border-width: 3px;
+	width: 164px;
+	height: 20px;
+	padding: 15px 65px;
+	text-align: center;
+	color: #000000;
+}
+
+a:hover.home-navigation-2{
+	display: block;
+	border: solid;
+	border-color: #cb8b43;
+	background-color: #984816;
+	border-width: 3px;
+	width: 164px;
+	height: 20px;
+	padding: 15px 65px;
+	text-align: center;
+	color: #000000;
+}
+
+.home-navigation-3{
+	display: block;
+	border: solid;
+	border-color: #984816;
+	border-width: 3px;
+	width: 194px;
+	height: 20px;
+	padding: 15px 50px;
+	text-align: center;
+	color: #000000;
+}
+
+a:hover.home-navigation-3{
+	display: block;
+	border: solid;
+	border-color: #cb8b43;
+	background-color: #984816;
+	border-width: 3px;
+	width: 194px;
+	height: 20px;
+	padding: 15px 50px;
+	text-align: center;
+}
+
+.home-navigation-4{
+	display: block;
+	border: solid;
+	border-color: #984816;
+	border-width: 3px;
+	width: 204px;
+	height: 20px;
+	padding: 15px 45px;
+	text-align: center;
+	color: #000000;
+}
+
+a:hover.home-navigation-4{
+	display: block;
+	border: solid;
+	border-color: #cb8b43;
+	background-color: #984816;
+	border-width: 3px;
+	width: 204px;
+	height: 20px;
+	padding: 15px 45px;
+	text-align: center;
+}
+
+.site-footer{
+	background-color: #000000;
+	width: 1180px;
+	height: 120px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 60px;
+	margin: 0 auto;
+}
+
+.external-link{
+	color: white;
+	float: left;
+}
+
+.reservation{
+	margin-right: 20px;
+}
+
+.news{
+	margin-right: 20px;
+}
+
+a:link.news{
+	color: #ffffff;
+}
+
+a:link.faq{
+	color: #ffffff;
+}
+
+.catering{
+	margin-right: 20px;
+}
+
+.employability{
+	margin-right: 20px;
+}
+
+.faq{
+	margin-right: 20px;
+}
+
+.social-footer{
+	float: left;
+	margin-left: 780px;
+	margin-bottom: 40px; 
+}
+
+.facebook-footer{
+	float: left;
+}
+
+.twitter-footer{
+	float: left;
+}
+
+.instagram-footer{
+	float: left;
+}
+
+.yelp-footer{
+	float: left;
+}
+
+/********Who We Are********/
+
+.sub-navigation{
+	width: 1200px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	background-color: #984816;
+}
+
+.sub-navigation-1{
+	float: left;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #cb8b43;
+	padding: 15px 142px 15px 142px;
+	width: 110px;
+	height: 20px;
+	text-align: center;
+	color: #000000;
+}
+
+a:hover.sub-navigation-1{
+	float: left;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #cb8b43;
+	background-color: #cb8b43;
+	padding: 15px 142px 15px 142px;
+	width: 110px;
+	height: 20px;
+	text-align: center;
+}
+
+.sub-navigation-2{
+	float: left;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #cb8b43;
+	padding: 15px 82px 15px 82px;
+	width: 230px;
+	height: 20px;
+	text-align: center;
+	color: #000000
+}
+
+a:hover.sub-navigation-2{
+	float: left;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #cb8b43;
+	background-color: #cb8b43;
+	padding: 15px 82px 15px 82px;
+	width: 230px;
+	height: 20px;
+	text-align: center;
+}
+
+.sub-navigation-3{
+	float: left;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #cb8b43;
+	padding: 15px 102px 15px 102px;
+	width: 190px;
+	height: 20px;
+	text-align: center;
+	color: #000000
+}
+
+a:hover.sub-navigation-3{
+	float: left;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #cb8b43;
+	background-color: #cb8b43;
+	padding: 15px 102px 15px 102px;
+	width: 190px;
+	height: 20px;
+	text-align: center;
+}
+
+.content{
+	width: 1200px;
+	height: 1900px;
+	background: #e5a671;
+	margin: 0 auto;
+}
+
+.banner{
+	float: left;
+	background: #984816;
+	width: 1160px;
+	height: 630px;
+	margin: 20px 20px 20px 20px;
+	
+}
+
+.border-image{
+	margin: 20px 20px;
+}
+
+.text-box{
+	text-align: center;
+	margin: 0 auto;
+	background-color: #000000;
+	width: 560px;
+	height: 430px;
+	position: relative;
+	bottom: 580px;
+	padding: 60px 20px;
+}
+
+.paragraph{
+	color: #ffffff;
+	line-height: 40px;
+}
+
+.button-section{
+	margin-top: 60px;
+}
+
+.button {
+	background-color: #984816;
+	width: 330px;
+	height: 40px;
+	margin: 0 auto;
+	padding: 50px 20px 75px 20px;
+	border-color: #cb8b43;
+	border-width: 3px;
+	border-style: solid;
+}
+
+a:link.button{
+	color: #000000;
+}
+
+a:hover.button{
+	background-color: #cb8b43;
+	width: 330px;
+	height: 40px;
+	margin-top: 40px;
+	margin: 0 auto;
+	padding: 50px 20px 75px 20px;
+	border-color: #984816;
+	border-width: 3px;
+	border-style: solid;
+}
+
+.video{
+	margin: 0 auto;
+}
+
+.tv{
+	text-align: center;
+}
+
+.main-video{
+	text-align: center;
+	margin: 0 auto;
+	background-color: #cb8b43;
+	width: 860px;
+	height: 520px;
+	border-width: 20px;
+	border-color: #984816;
+	border-style: solid;
+	margin-bottom: 20px;
+}
+
+.main-youtube-video{
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+.special-section{
+	margin: 10px 10px;
+}
+
+.special{
+	text-align: center;
+}
+
+
+.special-1{
+	float: left;
+	text-align: center;
+	margin-left: 10px;
+}
+
+.special-2{
+	float: left;
+	text-align: center;
+	margin-left: 10px;
+}
+
+.special-3{
+	float: left;
+	text-align: center;
+	margin-left: 10px;
+}
+
+/********What We Offer********/
+
+.home-navigation-food{
+	margin-bottom: 20px;
+}
+
+.content-food-section{
+	padding-top: 20px;
+	margin: 0 auto;
+	width: 1200px;
+	height: 2060px;
+	background-color: #e5a671;	
+}
+
+.hamburger-icon{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.hamburger-title{
+	text-align: center;
+}
+
+.sandwich-section-information{
+	margin: 0 auto;
+	margin-bottom: 0;
+	width: 960px;
+	height: 910px;
+	padding: 20px 20px 0px 20px;
+	background-color: #cb8b43;
+	border: solid;
+	border-width: 20px;
+	border-color: #984816;
+}
+
+.sandwich-information{
+	float: left;
+	line-height: 40px;
+}
+
+.sandwich-section-paragraph-1{
+	text-align: center;
+}
+
+.sandwich-section-column-1{
+	float: left;
+	width: 160px;
+	height: 240px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.sandwich-section-column-2{
+	float: left;
+	width: 160px;
+	height: 240px;
+	text-align: center;
+	margin-left: 100px;
+	margin-bottom: 30px;
+}
+
+.sandwich-section-column-3{
+	float: left;
+	width: 160px;
+	height: 240px;
+	text-align: center;
+}
+
+.sandwich-section-column-4{
+    float: left;
+	width: 160px;
+	height: 240px;
+	margin-left: 100px;
+	text-align: center;
+}
+
+.sandwich-section-images-button{
+	float: right;
+}
+
+
+.sandwich-button{
+    text-align: center;
+    width: 457px;
+	height: 42px;
+	background-color: #984816;
+	text-align: center;
+	padding: 100px 0px 132px 0px;
+	border-color: #e5a671;
+	border-width: 3px;
+	border-style: solid;
+}
+
+a:link.sandwich-section-button{
+	color: #000000;
+}
+
+a:hover.sandwich-section-button{
+	width: 457px;
+	height: 42px;
+	background-color: #e5a671;
+	padding: 100px 46px 100px 50px;
+	border-color: #984816;
+	border-width: 3px;
+	border-style: solid;
+}
+
+.side-dish-icon{
+	text-align: center;
+	margin: 20px 0;
+}
+
+.side-dish-title{
+	text-align: center;
+}
+
+.side-dish-information-section{
+	margin: 0 auto;
+	width: 960px;
+	height: 560px;
+	background-color: #cb8b43;
+	border: solid;
+	border-width: 20px;
+	border-color: #984816;
+	padding: 20px 20px 0px 0px;
+}
+
+.side-dish-information{
+	float: left;
+	line-height: 40px;
+	text-align: center;
+	margin-left: 20px;
+}
+
+.side-dish-images-button{
+	float: right;
+	margin-right: 20px;	
+}
+
+.side-dish-button{
+	text-align: center;
+    width: 457px;
+	height: 42px;
+	background-color: #984816;
+	text-align: center;
+	padding: 100px 0px 132px 0px;
+	border-color: #e5a671;
+	border-width: 3px;
+	border-style: solid;
+}
+
+.side-dish-section{
+	color: #000000;	
+}
+
+a:hover.side-dish-section{
+    width: 457px;
+	height: 42px;
+	background-color: #e5a671;
+	padding: 100px 75px;
+	border-color: #984816;
+	border-width: 3px;
+	border-style: solid;
+}
+	
+/**Where To Find Us**/	
+	
+.where-to-find-us-content{
+	background-color: #e5a671;
+	width: 1200px;
+	height: 820px;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 20px 0px;
+}
+
+.location-icon{
+	text-align: center;
+}
+
+.location-title{
+	text-align: center;
+}
+	
+.location-information-section{
+	margin: 0 auto;
+	width: 960px;
+	height: 560px;
+	background-color: #cb8b43;
+	padding: 20px 20px 0px 0px;
+	border: solid;
+	border-width: 20px;
+	border-color: #984816;
+}
+		
+.information-row-1{
+	text-align: center;
+	width: 360px;
+	height: 250px;
+	float: left;
+	line-height: 30px;
+}
+	
+.information-row-1-map{
+	float: right;
+	margin-right: 20px;
+}
+	
+.location-information-row-2{
+	margin-top: 20px;
+}
+	
+.information-row-2{
+	text-align: center;
+	width: 360px;
+	height: 250px;
+	float: left;
+	line-height: 30px;
+	margin-top: 20px;
+}
+	
+.location-information-row-2-map{
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+	
+/**How to Contact Us**/
+
+.how-to-contact-us-content{
+	width: 1200px;
+	height: 720px;
+	background: #e5a671;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+	
+.contact-icon{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.contact-title{
+	text-align: center;
+}
+
+.contact-send-section{
+	margin: 0 auto;
+	width: 940px;
+	height: 420px;
+	background-color: #cb8b43;
+	border: solid;
+	border-width: 20px;
+	border-color: #984816;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.submit-section{
+	margin: 0 auto;
+}
+
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.contact-input{
+	width: 240px;
+	height: 40px;
+	padding: 0px 20px 0px 20px;
+}
+
+.contact-name{
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.contact-email{
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.contact-phone-number{
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.contact-subject{
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.message-section-title{
+	text-align: center;
+}
+
+.message-submit{
+	background-color: #984816;
+	color: #000000;
+	border-width: 3px;
+	border: solid;
+	border-color: #e5a671;
+	padding: 15px 256px;	
+	margin-top: 20px;
+}
+
+/**Press**/
+
+.press-content-section{
+	background-color: #e5a671;
+	width: 1200px;
+	height: 940px;
+	margin: 0 auto;
+}
+
+.press{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.press-section{
+    margin: 0 auto;
+	width: 1080px;
+	height: 610px;
+	background-color: #cb8b43;
+	border: solid;
+	border-width: 20px;
+	border-color: #984816;
+	padding: 20px 20px 0px 20px;
+}
+
+.press-section-row-1{
+	width: 1080px;
+	margin: 0px 40px;
+}
+
+.press-item {
+	float: left;
+}
+
+.press-section-row-2{
+	width: 1080px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.next-button-section{
+	float: right;
+	width: 300px;
+	height: 70px;
+	background-color: #984816;
+	margin-right: 260px;
+	font-size: 60px;
+	text-align: center;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #e5a671;
+}
+
+a:visited.next-button{
+	color: black;
+}
+
+/**Faq**/
+
+.faq-content-section{
+	background-color: #e5a671;
+	width: 1200px;
+	height: 1080px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+.faq-content{
+	text-align: center;
+	margin: 20px 0px;
+}
+
+.faq-section{
+	margin: 0 auto;
+	width: 960px;
+	height: 740px;
+	background-color: #cb8b43;
+	border: solid;
+	border-width: 20px;
+	border-color: #984816;
+	padding: 20px 20px 0px 20px;
+}
+
+.faq-line{
+	margin-bottom: 20px;	
+}
+
+.title-color{
+	color: #c60202;
+	font-size: 18px;
+}
+
+
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
